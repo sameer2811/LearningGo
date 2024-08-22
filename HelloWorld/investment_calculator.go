@@ -38,7 +38,6 @@ func main() {
 	futureValue := principalValue * math.Pow((1+rateOfIntrest/100), timeInYears)
 	futureRealPrice := futureValue / (1 + math.Pow(1+inflationRate/100, timeInYears))
 
-	
 	fmt.Println(futureValue)
 	fmt.Println(futureRealPrice)
 }

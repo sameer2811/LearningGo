@@ -23,6 +23,7 @@ func main() {
 	//  way2 declaration and then initialization
 	var appUser2 user
 	appUser2 = user{}
+	appUser2.firstName = "Golang"
 
 	//  way3 declaration and then initialization
 	appUser3 := user{}
